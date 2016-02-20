@@ -1,0 +1,243 @@
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+
+/* ==== Custom font ==== */
+@font-face {
+    font-family: 'AlexBrush';
+    src: url('../fonts/alexbrush-regular-webfont.eot');
+    src: url('../fonts/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff'),
+         url('../fonts/alexbrush-regular-webfont.ttf') format('truetype'),
+         url('../fonts/alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+/*    line-height: 1.6em;*/
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #444;
+}
+
+#content {
+    min-height: 90vh;
+}
+
+
+.modal-register {
+  width: 900px;
+  margin-left: -150px;
+}
+
+.highlight{
+    color: orange;
+}
+
+#landing-page {
+    background-color: #444;
+    background: url(../img/website/background_landingPage.jpg) no-repeat center top;
+    margin-top: -20px;
+    padding-top: 150px;
+    background-attachment: absolute;
+    background-position: center center;
+    height: 88vh;
+    min-height: 600px;
+    width: 100%;
+    color:white;
+
+}
+
+#landing-page h1 {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+h2.subtitle {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.btn-theme{
+    background-color: orange;
+    color: white;
+}
+
+.btn-theme:hover{
+    background-color: red;
+    color: white;
+}
+
+.navbar-header{
+    
+}
+
+a#logo-font{
+    font-family: 'AlexBrush', arial, helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+.logo-font-small{
+    font-family: 'AlexBrush', arial, helvetica, sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+.centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map_container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.map_container .map_canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.error-input{
+    color: red;
+    border-color: red;
+}
+
+.error-label{
+    visibility: hidden;
+    color: red;
+    font-weight: normal;
+}
+
+.caption:hover {
+    opacity: 1;
+}
+
+.caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.location-wrap{
+/*	background-color: lightgrey;*/
+}
+
+.location-box{
+	margin-bottom: 20px;
+	background-color: white;
+	min-height: 240px;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 10px #999999;
+}
+
+
+.location-box img{
+	width: 100%;
+
+}
+
+.image-wrap{
+/*    min-height: 200px;*/
+
+}
+
+.image-wrap img {
+        margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.name {
+	margin: 5px;
+	height: 30px;
+}
+
+.name h5{
+	padding: 5px;
+	font-weight: bold;
+}
+
+.likes {
+                position: absolute;
+/*                width: 40%;*/
+                bottom: 1px;
+                left: 2px;
+                padding: 2px;
+                background: #000000;
+                background: rgba(#000000, 0.4);
+                color: #FFFFFF;
+            }
+
+.description {
+            width: 100%;
+            height: 50px;
+            font-size: 12px;
+
+            color: black;
+            letter-spacing: 1px;
+            padding: 5px;
+            height: 30px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+/*            bottom: 0;
+            position: absolute;*/
+        }
+
+
+
+footer {
+    background-color: orange;
+    color: white;
+    height: 60px;
+}
+
+footer p{
+    margin: 15px;
+}
+
+footer#footer-landingPage{
+    position:fixed; 
+    bottom:0;
+    width: 100%;
+ 
+}
